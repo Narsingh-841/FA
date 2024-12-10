@@ -32,6 +32,17 @@
         <artifactId>log4j-api</artifactId>
         <version>2.20.0</version> <!-- Use the latest version available -->
     </dependency>
+    <dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>5.2.3</version> <!-- Ensure you are using a version that supports both HSSF and XSSF -->
+</dependency>
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>5.2.3</version>
+</dependency>
+
   </dependencies>
 
   <build>
